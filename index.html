@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GearSouls — Your project title</title>
+  <meta name="description" content="A simple starter website for GearSouls." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">GearSouls</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav">
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+      <nav id="nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Build faster. Ship better.</h1>
+        <p class="lead">GearSouls — a minimal starter site to showcase your project or product.</p>
+        <p class="cta-row">
+          <a class="btn btn-primary" href="#features">Learn more</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="features" class="container features">
+      <h2>Features</h2>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Fast</h3>
+          <p>Lightweight markup and minimal CSS for great load times.</p>
+        </article>
+        <article class="feature">
+          <h3>Responsive</h3>
+          <p>Looks good on phones, tablets and desktops out of the box.</p>
+        </article>
+        <article class="feature">
+          <h3>Accessible</h3>
+          <p>Keyboard friendly and screen-reader conscious markup.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About GearSouls</h2>
+      <p>Replace this text with a short paragraph describing your project, mission, or product.
+      You can add screenshots, links, or additional pages as needed.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>Have questions or want to collaborate? Reach out:</p>
+      <ul>
+        <li>Email: <a href="mailto:hello@example.com">hello@example.com</a></li>
+        <li>GitHub: <a href="https://github.com/esiemestifanos-source/gearsouls" target="_blank" rel="noopener">esiemestifanos-source/gearsouls</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> GearSouls. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
