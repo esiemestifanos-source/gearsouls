@@ -1,1 +1,178 @@
-<!-- Build timestamp: 2026-02-05 05:27:09 -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GearSouls — Premium Apparel</title>
+  <meta name="description" content="GearSouls — contemporary clothing with a rebellious edge." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta property="og:title" content="GearSouls — Premium Apparel">
+  <meta property="og:description" content="Contemporary clothing with a rebellious edge. Limited drops.">
+  <meta property="og:image" content="assets/og-preview.png">
+  <meta name="theme-color" content="#0b0b0b">
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img src="assets/logo.png" alt="GearSouls logo" class="brand-logo">
+      </a>
+
+      <nav class="site-nav" id="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#lookbook">Lookbook</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav">
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 class="brand-head">GearSouls</h1>
+          <p class="lead">Limited runs. Durable materials. Statement-making pieces built to last.</p>
+          <p class="cta-row">
+            <a class="btn btn-primary" href="#shop">Shop Collection</a>
+            <a class="btn btn-outline" href="#lookbook">View Lookbook</a>
+          </p>
+        </div>
+
+        <div class="hero-aside">
+          <img src="assets/hero-product.jpg" alt="Hero image" class="hero-photo">
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="container shop">
+      <div class="section-header">
+        <h2>Shop</h2>
+        <p class="section-sub">Featured pieces — handcrafted details and industrial edge.</p>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <!-- Product card 1 -->
+        <article class="product-card" data-product-id="p1">
+          <button class="card-image" aria-label="View Signature Tee" data-open-product>
+            <img src="assets/p1.jpg" alt="Signature Tee">
+          </button>
+          <div class="product-body">
+            <div class="meta">
+              <h3>Signature Tee</h3>
+              <span class="price">$34</span>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-sm" data-open-product>View</button>
+              <div class="buy-placeholder" data-product-placeholder>Buy button</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product card 2 -->
+        <article class="product-card" data-product-id="p2">
+          <button class="card-image" aria-label="View Industrial Jacket" data-open-product>
+            <img src="assets/p2.jpg" alt="Industrial Jacket">
+          </button>
+          <div class="product-body">
+            <div class="meta">
+              <h3>Industrial Jacket</h3>
+              <span class="price">$129</span>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-sm" data-open-product>View</button>
+              <div class="buy-placeholder" data-product-placeholder>Buy button</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product card 3 -->
+        <article class="product-card" data-product-id="p3">
+          <button class="card-image" aria-label="View Utility Hoodie" data-open-product>
+            <img src="assets/p3.jpg" alt="Utility Hoodie">
+          </button>
+          <div class="product-body">
+            <div class="meta">
+              <h3>Utility Hoodie</h3>
+              <span class="price">$79</span>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-sm" data-open-product>View</button>
+              <div class="buy-placeholder" data-product-placeholder>Buy button</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="lookbook" class="container lookbook">
+      <h2>Lookbook</h2>
+      <p>Editorial imagery — pieces styled for life in motion.</p>
+      <div class="lookbook-grid">
+        <img src="assets/look1.jpg" alt="Look 1">
+        <img src="assets/look2.jpg" alt="Look 2">
+        <img src="assets/look3.jpg" alt="Look 3">
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About GearSouls</h2>
+      <p>Born from industrial influences, GearSouls crafts limited drops with an emphasis on longevity and a bold aesthetic.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>For wholesale and press, reach out below.</p>
+      <ul>
+        <li>Email: <a href="mailto:hello@gearsouls.example">hello@gearsouls.example</a></li>
+        <li>Instagram: <a href="https://instagram.com/" target="_blank" rel="noopener">@gearsouls</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>© <span id="year"></span> GearSouls</div>
+        <nav class="socials" aria-label="Social links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Twitter">TW</a>
+          <a href="#" aria-label="Facebook">FB</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product modal -->
+  <div id="product-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" aria-label="Close" data-close-modal>&times;</button>
+      <div class="modal-inner">
+        <div class="modal-image">
+          <img src="assets/p1.jpg" alt="" id="modal-image">
+        </div>
+        <div class="modal-info">
+          <h3 id="modal-title">Product title</h3>
+          <p id="modal-price" class="price">$0</p>
+          <p id="modal-desc">Product details go here. Replace with your description.</p>
+          <div id="modal-buy" class="buy-placeholder">Buy button placeholder</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
